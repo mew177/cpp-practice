@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AVL Tree.xcodeproj">
+      location = "self:AVL Search Tree.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FA36253244D1C2400F792CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA36252244D1C2400F792CE /* main.cpp */; };
-		9FA3625A244D1C4200F792CE /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA36259244D1C4200F792CE /* Tree.cpp */; };
-		9FA3625D244D374900F792CE /* AVL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA3625B244D374900F792CE /* AVL.cpp */; };
+		9FA3667A2452B9F300F792CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FA366792452B9F300F792CE /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9FA3624D244D1C2400F792CE /* CopyFiles */ = {
+		9FA366742452B9F300F792CE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,15 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9FA3624F244D1C2400F792CE /* AVL Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AVL Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FA36252244D1C2400F792CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		9FA36259244D1C4200F792CE /* Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
-		9FA3625B244D374900F792CE /* AVL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVL.cpp; sourceTree = "<group>"; };
-		9FA3625C244D374900F792CE /* AVL.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVL.hpp; sourceTree = "<group>"; };
+		9FA366762452B9F300F792CE /* AVL Search Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AVL Search Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA366792452B9F300F792CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9FA3624C244D1C2400F792CE /* Frameworks */ = {
+		9FA366732452B9F300F792CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,68 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9FA36246244D1C2400F792CE = {
+		9FA3666D2452B9F300F792CE = {
 			isa = PBXGroup;
 			children = (
-				9FA36251244D1C2400F792CE /* AVL Tree */,
-				9FA36250244D1C2400F792CE /* Products */,
+				9FA366782452B9F300F792CE /* AVL Search Tree */,
+				9FA366772452B9F300F792CE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9FA36250244D1C2400F792CE /* Products */ = {
+		9FA366772452B9F300F792CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FA3624F244D1C2400F792CE /* AVL Tree */,
+				9FA366762452B9F300F792CE /* AVL Search Tree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FA36251244D1C2400F792CE /* AVL Tree */ = {
+		9FA366782452B9F300F792CE /* AVL Search Tree */ = {
 			isa = PBXGroup;
 			children = (
-				9FA36252244D1C2400F792CE /* main.cpp */,
-				9FA36259244D1C4200F792CE /* Tree.cpp */,
-				9FA3625B244D374900F792CE /* AVL.cpp */,
-				9FA3625C244D374900F792CE /* AVL.hpp */,
+				9FA366792452B9F300F792CE /* main.cpp */,
 			);
-			path = "AVL Tree";
+			path = "AVL Search Tree";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FA3624E244D1C2400F792CE /* AVL Tree */ = {
+		9FA366752452B9F300F792CE /* AVL Search Tree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA36256244D1C2400F792CE /* Build configuration list for PBXNativeTarget "AVL Tree" */;
+			buildConfigurationList = 9FA3667D2452B9F300F792CE /* Build configuration list for PBXNativeTarget "AVL Search Tree" */;
 			buildPhases = (
-				9FA3624B244D1C2400F792CE /* Sources */,
-				9FA3624C244D1C2400F792CE /* Frameworks */,
-				9FA3624D244D1C2400F792CE /* CopyFiles */,
+				9FA366722452B9F300F792CE /* Sources */,
+				9FA366732452B9F300F792CE /* Frameworks */,
+				9FA366742452B9F300F792CE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "AVL Tree";
-			productName = "AVL Tree";
-			productReference = 9FA3624F244D1C2400F792CE /* AVL Tree */;
+			name = "AVL Search Tree";
+			productName = "AVL Search Tree";
+			productReference = 9FA366762452B9F300F792CE /* AVL Search Tree */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9FA36247244D1C2400F792CE /* Project object */ = {
+		9FA3666E2452B9F300F792CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Pitt;
 				TargetAttributes = {
-					9FA3624E244D1C2400F792CE = {
+					9FA366752452B9F300F792CE = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
-			buildConfigurationList = 9FA3624A244D1C2400F792CE /* Build configuration list for PBXProject "AVL Tree" */;
+			buildConfigurationList = 9FA366712452B9F300F792CE /* Build configuration list for PBXProject "AVL Search Tree" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,31 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 9FA36246244D1C2400F792CE;
-			productRefGroup = 9FA36250244D1C2400F792CE /* Products */;
+			mainGroup = 9FA3666D2452B9F300F792CE;
+			productRefGroup = 9FA366772452B9F300F792CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FA3624E244D1C2400F792CE /* AVL Tree */,
+				9FA366752452B9F300F792CE /* AVL Search Tree */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9FA3624B244D1C2400F792CE /* Sources */ = {
+		9FA366722452B9F300F792CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA3625D244D374900F792CE /* AVL.cpp in Sources */,
-				9FA36253244D1C2400F792CE /* main.cpp in Sources */,
-				9FA3625A244D1C4200F792CE /* Tree.cpp in Sources */,
+				9FA3667A2452B9F300F792CE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9FA36254244D1C2400F792CE /* Debug */ = {
+		9FA3667B2452B9F300F792CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		9FA36255244D1C2400F792CE /* Release */ = {
+		9FA3667C2452B9F300F792CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +235,7 @@
 			};
 			name = Release;
 		};
-		9FA36257244D1C2400F792CE /* Debug */ = {
+		9FA3667E2452B9F300F792CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		9FA36258244D1C2400F792CE /* Release */ = {
+		9FA3667F2452B9F300F792CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -268,25 +258,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FA3624A244D1C2400F792CE /* Build configuration list for PBXProject "AVL Tree" */ = {
+		9FA366712452B9F300F792CE /* Build configuration list for PBXProject "AVL Search Tree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FA36254244D1C2400F792CE /* Debug */,
-				9FA36255244D1C2400F792CE /* Release */,
+				9FA3667B2452B9F300F792CE /* Debug */,
+				9FA3667C2452B9F300F792CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FA36256244D1C2400F792CE /* Build configuration list for PBXNativeTarget "AVL Tree" */ = {
+		9FA3667D2452B9F300F792CE /* Build configuration list for PBXNativeTarget "AVL Search Tree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FA36257244D1C2400F792CE /* Debug */,
-				9FA36258244D1C2400F792CE /* Release */,
+				9FA3667E2452B9F300F792CE /* Debug */,
+				9FA3667F2452B9F300F792CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9FA36247244D1C2400F792CE /* Project object */;
+	rootObject = 9FA3666E2452B9F300F792CE /* Project object */;
 }
