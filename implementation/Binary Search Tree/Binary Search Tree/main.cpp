@@ -86,11 +86,11 @@ struct BST {
                 // case 1
                 return NULL;
             } else if (!root->left) {
-                // target node only has left child
+                // target node only has right child
                 // case 2
                 return root->right;
             } else if (!root->right) {
-                // target node only has right child
+                // target node only has left child
                 // case 3
                 return root->left;
             } else {
